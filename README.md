@@ -16,7 +16,7 @@
 
 - ```shell
     git clone https://github.com/<username>/frappy
-    cd xester
+    cd frappy
     ```
 - Install Go/Golang 1.17 and above [go.dev](https://go.dev/)
 
