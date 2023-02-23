@@ -2,7 +2,10 @@ module github.com/siddhantprateek/frappy
 
 go 1.20
 
-require github.com/onflow/flow-go-sdk v0.33.0
+require (
+	github.com/onflow/cadence v0.31.3
+	github.com/onflow/flow-go-sdk v0.33.0
+)
 
 require (
 	github.com/bits-and-blooms/bitset v1.2.2 // indirect
@@ -16,7 +19,6 @@ require (
 	github.com/klauspost/cpuid/v2 v2.0.14 // indirect
 	github.com/logrusorgru/aurora v0.0.0-20200102142835-e9ef32dff381 // indirect
 	github.com/onflow/atree v0.4.0 // indirect
-	github.com/onflow/cadence v0.31.3 // indirect
 	github.com/onflow/flow-go/crypto v0.24.4 // indirect
 	github.com/onflow/flow/protobuf/go/flow v0.3.1 // indirect
 	github.com/onflow/sdks v0.5.0 // indirect

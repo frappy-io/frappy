@@ -1,32 +1,31 @@
 package blockchain
 
 import (
-	"context"
+	// "context"
 	"fmt"
 
 	"github.com/onflow/flow-go-sdk"
 	"github.com/onflow/flow-go-sdk/client"
-	"github.com/onflow/flow-go-sdk/examples"
-	flowInstance "github.com/siddhantprateek/frappy/blockchain/flow"
+	// flowInstance "github.com/siddhantprateek/frappy/blockchain/flow"
 )
 
 func GetEvents() {
-	ctx := context.Background()
-	flowClient := flowInstance.NewFlowClient()
+	// ctx := context.Background()
+	// flowClient := flowInstance.NewFlowClient()
 
 	// Query for account creation events by type
-	result, err := flowClient.GetEventsForHeightRange(ctx, "flow.AccountCreated", 0, 30)
-	printEvents(result, err)
+	// result, err := flowClient.GetEventsForHeightRange(ctx, "flow.AccountCreated", 0, 30)
+	// printEvents(result, err)
 
 	// Query for our custom event by type
-	customType := fmt.Sprintf("AC.%s.EventDemo.EventDemo.Add", deployedContract.Address.Hex())
-	result, err = flowClient.GetEventsForHeightRange(ctx, customType, 0, 10)
-	printEvents(result, err)
+	// customType := fmt.Sprintf("AC.%s.EventDemo.EventDemo.Add", deployedContract.Address.Hex())
+	// result, err = flowClient.GetEventsForHeightRange(ctx, customType, 0, 10)
+	// printEvents(result, err)
 
 	// Get events directly from transaction result
-	txResult, err := flowClient.GetTransactionResult(ctx, runScriptTx.ID())
-	examples.Handle(err)
-	printEvent(txResult.Events)
+	// txResult, err := flowClient.GetTransactionResult(ctx, runScriptTx.ID())
+	// examples.Handle(err)
+	// printEvent(txResult.Events)
 }
 
 func printEvents(result []client.BlockEvents, err error) {
