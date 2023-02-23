@@ -12,7 +12,7 @@
 
 ## Setting up dev-environment
 
-- Fork the repository [siddhantprateek/xester](https://github.com/siddhantprateek/frappy)
+- Fork the repository [siddhantprateek/frappy](https://github.com/siddhantprateek/frappy)
 
 - ```shell
     git clone https://github.com/<username>/frappy
