@@ -10,6 +10,21 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 - Flow
 
+## Setting up dev-environment
+
+- Fork the repository [siddhantprateek/xester](https://github.com/siddhantprateek/frappy)
+
+- ```shell
+    git clone https://github.com/<username>/frappy
+    cd xester
+    ```
+- Install Go/Golang 1.17 and above [go.dev](https://go.dev/)
+
+- ```javascript
+    go get .
+    go run cmd/main.go
+    ```
+
 ## Author 
 
 - [Siddhant Prateek Mahanayak](github.com/siddhantprateek)
