@@ -1,5 +1,7 @@
 <h1 align="center">Frappy</h1>
 
+![frappy-thumb](https://user-images.githubusercontent.com/43869046/221114898-b3712120-82c3-4844-892e-1680d54c176c.png)
+
 
 ## Tech Stack
 
