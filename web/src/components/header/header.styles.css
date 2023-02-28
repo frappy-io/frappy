@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+.header-left h2 {
+    font-family: 'Poor Story', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    border: 2px solid rgb(125, 255, 125);
+    border-radius: 30px;
+}
+
+.option ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.option li {
+    margin-right: 1.5rem;
+    list-style: none;
+
+}
+
+.connect-opt {
+    margin-left: 4rem;
+}
+
